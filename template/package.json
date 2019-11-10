@@ -1,6 +1,6 @@
 {
   "name": "[[[PACKAGE NAME]]]",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "[[[PACKAGE DESCRIPTION]]]",
   "files": "lib/**/*",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
     "preversion": "npm run lint",
     "postversion": "git push && git push --tags",
     "test": "ts-mocha src/**/*.spec.ts",
-    "version": "npm run format && git add -A src"
+    "version": "git add -A src"
   },
   "repository": {
     "type": "git",
